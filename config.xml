@@ -34,6 +34,15 @@
     <!--<gap:plugin name="org.apache.cordova.network-information" />-->
     <!--<gap:plugin name="org.apache.cordova.core.inappbrowser" />-->
 
+
+    <gap:plugin name="onesignal-cordova-plugin" spec="^2.0.6" source="npm" />
+
+    <!-- Recommend the newest cli but requires cli-5.1.1+ and gradle for Android. -->
+    <!-- If the below settings are not compatible with your project set the "PGB ANT" version above. -->
+   
+    <preference name="android-build-tool" value="gradle" />
+
+
     <gap:plugin name="cordova-plugin-whitelist" source="npm"/>
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
         <param name="URL_SCHEME" value="scan" />
