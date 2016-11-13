@@ -19,7 +19,7 @@
     <gap:plugin name="com.phonegap.plugins.barcodescanner"/>
 <gap:plugin name="cordova-plugin-barcodescanner" source="npm"/>-->
 
-    <plugin name="br.com.paveisitemas.splashscreen" spec="2.1.1" source="pgb" />
+    <plugin name="br.com.paveisitemas.splashscreen" spec="2.1.1" source="npm" />
 
     <!--<plugin name="org.apache.cordova.inappbrowser" source="pgb" />-->
 
