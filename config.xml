@@ -19,7 +19,7 @@
     <gap:plugin name="com.phonegap.plugins.barcodescanner"/>
 <gap:plugin name="cordova-plugin-barcodescanner" source="npm"/>-->
 
-    <!--<plugin name="br.com.paveisitemas.splashscreen" spec="2.1.1" source="npm" />-->
+    <!--<plugin name="br.com.paveisitemas.splashscreen" spec="2.1.1" source="pgb" />-->
     <preference name="SplashScreen" value="screen"/>
 
     <!--<plugin name="org.apache.cordova.inappbrowser" source="pgb" />-->
@@ -42,6 +42,10 @@
     <!-- If the below settings are not compatible with your project set the "PGB ANT" version above. -->
    
     <preference name="android-build-tool" value="gradle" />
+
+    <gap:plugin name="onesignal-cordova-plugin-pgb-compat" source="npm" />
+    <gap:plugin name="cordova-plugin-googleplayservices" source="npm" />
+    <gap:plugin name="cordova-plugin-android-support-v4" source="npm" />
 
 
     <gap:plugin name="cordova-plugin-whitelist" source="npm"/>
