@@ -36,7 +36,7 @@
     <!--<gap:plugin name="org.apache.cordova.core.inappbrowser" />-->
 
 
-    <gap:plugin name="onesignal-cordova-plugin" spec="^2.0.6" source="npm" />
+    <gap:plugin name="onesignal-cordova-plugin-pgb-compat" spec="^2.0.6" source="npm" />
 
     <!-- Recommend the newest cli but requires cli-5.1.1+ and gradle for Android. -->
     <!-- If the below settings are not compatible with your project set the "PGB ANT" version above. -->
