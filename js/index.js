@@ -1,3 +1,5 @@
+var app;
+
 app = {
     // Application Constructor
     initialize: function () {
@@ -5,12 +7,15 @@ app = {
     },
 
     bindEvents: function () {
-
+        console.log("bindEvents")
         //alert("hi")
         // Add to index.js or the first page that loads with your app.
         // For Intel XDK and please add this to your app.js.
 
+        document.addEventListener('deviceready', this.onDeviceReady, false);
+
         document.addEventListener('deviceready', function () {
+          console.log("deviceready")
 
           // Enable to debug issues.
           // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
@@ -28,6 +33,25 @@ app = {
           //   Will be used to reach the user at the most optimal time of day.
           // window.plugins.OneSignal.syncHashedEmail(userEmail);
         }, false);
+    },
+    onDeviceReady: function () {
+        app.receivedEvent('deviceready');
+        
+        //iniEvents();
+
+
+    },
+
+    // Update DOM on a Received Event
+    receivedEvent: function (id) {
+        /*var parentElement = document.getElementById(id);
+        var listeningElement = parentElement.querySelector('.listening');
+        var receivedElement = parentElement.querySelector('.received');
+        listeningElement.setAttribute('style', 'display:none;');
+        receivedElement.setAttribute('style', 'display:block;');*/
+
+        console.log('Received Event: ' + id);
     }
+
 
 };
