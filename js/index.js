@@ -14,7 +14,7 @@ app = {
 
         //document.addEventListener('deviceready', this.onDeviceReady, false);
 
-        /*document.addEventListener('deviceready', function () {
+        document.addEventListener('deviceready', function () {
           alert("deviceready")
 
           // Enable to debug issues.
@@ -32,10 +32,8 @@ app = {
           // Sync hashed email if you have a login system or collect it.
           //   Will be used to reach the user at the most optimal time of day.
           // window.plugins.OneSignal.syncHashedEmail(userEmail);
-        }, false);*/
-        document.addEventListener("deviceready", function(){
-              alert("123");
-         },true);
+        }, false);
+       
     },
     onDeviceReady: function () {
         app.receivedEvent('deviceready');
