@@ -7,7 +7,7 @@ app = {
     },
 
     bindEvents: function () {
-        console.log("bindEvents")
+        alert("bindEvents")
         //alert("hi")
         // Add to index.js or the first page that loads with your app.
         // For Intel XDK and please add this to your app.js.
@@ -15,7 +15,7 @@ app = {
         //document.addEventListener('deviceready', this.onDeviceReady, false);
 
         document.addEventListener('deviceready', function () {
-          console.log("deviceready")
+          alert("deviceready")
 
           // Enable to debug issues.
           // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
