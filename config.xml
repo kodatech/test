@@ -10,73 +10,28 @@
         Push Notification Test.
     </description>
 
-    <author href="http://phonegap.com" email="support@phonegap.com">
-        PhoneGap Team
+    <author href="http://www.kodait.com/" email="benjamin@kodatechnology.com">
+        KodaIT Team
     </author>
-    <!--https://github.com/phonegap/phonegap-plugin-barcodescanner.git
-    https://github.com/Telerik-Verified-Plugins/BarcodeScanner.git
-    <gap:plugin name="phonegap.plugin.barcodescanner" source="npm"/>
-    <gap:plugin name="com.phonegap.plugins.barcodescanner"/>
-<gap:plugin name="cordova-plugin-barcodescanner" source="npm"/>-->
-
-    <!--<plugin name="br.com.paveisitemas.splashscreen" spec="2.1.1" source="pgb" />-->
-    <preference name="SplashScreen" value="screen"/>
-
-    <!--<plugin name="org.apache.cordova.inappbrowser" source="pgb" />-->
-
-    <!--<plugin name="cordova-plugin-crosswalk-webview" source="npm" />-->
-
-
-    <plugin name="cordova-plugin-inappbrowser" source="npm" />
-    <!--<plugin spec="https://github.com/Telerik-Verified-Plugins/BarcodeScanner.git" source="git" />
-    <plugin spec="https://github.com/Innovation-District/cordova-plugin-inappbrowser.git" source="git" />-->
-
-    <!--<plugin name="cordova-plugin-inappbrowser"/>-->
-    <!--<gap:plugin name="org.apache.cordova.network-information" />-->
-    <!--<gap:plugin name="org.apache.cordova.core.inappbrowser" />-->
-
-
-    <!--<gap:plugin name="onesignal-cordova-plugin-pgb-compat" spec="^2.0.6" source="npm" />-->
-
+   
     <gap:plugin name="onesignal-cordova-plugin" spec="^2.0.6" source="npm" />
 
     <!-- Recommend the newest cli but requires cli-5.1.1+ and gradle for Android. -->
     <!-- If the below settings are not compatible with your project set the "PGB ANT" version above. -->
-   
+    <preference name="phonegap-version" value="cli-5.4.1" />
     <preference name="android-build-tool" value="gradle" />
 
-    <!--<gap:plugin name="onesignal-cordova-plugin-pgb-compat" source="npm" />-->
-    <!--<gap:plugin name="cordova-plugin-googleplayservices" source="npm" />
-    <gap:plugin name="cordova-plugin-android-support-v4" source="npm" />-->
+  
 
 
-    <gap:plugin name="cordova-plugin-whitelist" source="npm"/>
-    <gap:plugin name="cordova-plugin-customurlscheme" source="npm">
-        <param name="URL_SCHEME" value="scan" />
-    </gap:plugin>
-    <!--<gap:url-scheme role="Viewer">
-        <scheme>scan</scheme>
-        <scheme>pgbw</scheme>
-    </gap:url-scheme>
-    <gap:platform name="ios" />-->
+    
+   
     <gap:platform name="android" />
 
-    <!--Evita que se cierre la app al momento de presionar el launcher de nuevo
-    <gap:config-file platform="android" parent="/manifest/application">
-        <activity android:launchMode="singleTop" />
-    </gap:config-file>-->
-    <!--<gap:plugin name="com.ohh2ahh.plugins.appavailability" />-->
-
-    <gap:config-file platform="android" parent="/manifest/application"> <activity android:launchMode="singleTask" /> </gap:config-file>
-
+   
 
     <feature name="http://api.phonegap.com/1.0/device" />
-    <!--<feature name="debug-server" required="true">
-        <param name="domain" value="http://debug.phonegap.com"/>
-        <param name="key" value="willoughby"/>
-    </feature>
-
-    <preference name="phonegap-version" value="3.6.3" />-->
+   
     <preference name="phonegap-version" value="cli-5.4.1" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
