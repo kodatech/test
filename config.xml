@@ -50,6 +50,8 @@
     <icon src="res/icons/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="mdpi" />
     <icon src="res/icons/android/icon-72-hdpi.png"   gap:platform="android"    gap:density="hdpi" />
     <icon src="res/icons/android/icon-96-xhdpi.png"  gap:platform="android"    gap:density="xhdpi" />
+
+
     <icon src="res/icons/blackberry/icon-80.png"     gap:platform="blackberry" />
     <icon src="res/icons/blackberry/icon-80.png"     gap:platform="blackberry" gap:state="hover"/>
     <icon src="res/icons/ios/icon-57.png"            gap:platform="ios"        width="57" height="57" />
@@ -88,5 +90,15 @@
 
     </platform>
     <preference name="SplashScreenDelay" value="5000" />
+
+    <project-root>res/drawable-hdpi/</project-root>
+    <project-root>res/drawable-hdpi-v11/</project-root>
+    <project-root>res/drawable-mdpi/</project-root>
+    <project-root>res/drawable-mdpi-v11/</project-root>
+    <project-root>res/drawable-xhdpi/</project-root>
+    <project-root>res/drawable-xhdpi-v11/</project-root>
+    <project-root>res/ddrawable-xxhdpi/</project-root>
+    <project-root>res/drawable-xxhdpi-v11/</project-root>
+    <project-root>res/drawable-xxxhdpi-v11/</project-root>
 
 </widget>
