@@ -91,14 +91,14 @@
     </platform>
     <preference name="SplashScreenDelay" value="5000" />
 
-    <project-root>res/drawable-hdpi/</project-root>
-    <project-root>res/drawable-hdpi-v11/</project-root>
-    <project-root>res/drawable-mdpi/</project-root>
-    <project-root>res/drawable-mdpi-v11/</project-root>
-    <project-root>res/drawable-xhdpi/</project-root>
-    <project-root>res/drawable-xhdpi-v11/</project-root>
-    <project-root>res/ddrawable-xxhdpi/</project-root>
-    <project-root>res/drawable-xxhdpi-v11/</project-root>
-    <project-root>res/drawable-xxxhdpi-v11/</project-root>
+    <project-root>locales/android/drawable-hdpi/</project-root>
+    <project-root>locales/android/drawable-hdpi-v11/</project-root>
+    <project-root>locales/android/drawable-mdpi/</project-root>
+    <project-root>locales/android/drawable-mdpi-v11/</project-root>
+    <project-root>locales/android/drawable-xhdpi/</project-root>
+    <project-root>locales/android/drawable-xhdpi-v11/</project-root>
+    <project-root>locales/android/ddrawable-xxhdpi/</project-root>
+    <project-root>locales/android/drawable-xxhdpi-v11/</project-root>
+    <project-root>locales/android/drawable-xxxhdpi-v11/</project-root>
 
 </widget>
